@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica;
+    background: #fadcdc;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    box-shadow: 1px 1px 5px #000;
+    position: fixed;
+    background: rgb(148, 202, 238);
+}
+#menu{
+    width: 550px;
+    padding-top: 20px;
+    margin: auto;
+}
+#menu ul a{
+    color: #000;
+    text-decoration: none;
+    font:bold 100% verdana;
+    padding: 13px 20px 19px 20px
+}
+#menu ul a:hover{
+    color: rgb(255, 255, 255);
+    background:rgb(247, 121, 4);
+}
+
+
+
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    padding: 20px;
+    display: inline-block;
+    }
+
+.menu li a:hover{
+    background: #ccab18;
+}
+h1{
+    color:rgb(73, 62, 46);
+    font-size: 2.5em;
+    text-align: center;
+}
+p{
+    color: rgb(0, 0, 0);
+    width: 50%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+p1{
+    color: rgb(236, 228, 228);
+    width: 98%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.footer-wrapper {
+    background: #0e0f0f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font: normal normal 11px Arial;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+p3{
+    color:rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+}
+p4{
+    color:rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+}
+p5{
+    color:rgb(32, 4, 97);
+    font-size: 2em;
+    text-align: center;
+}
+p6ttt{
+    color:rgb(87, 68, 6);
+    font-size: 2em;
+    text-align: center;
+}
+#txt1{
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+    line-height: 170%;
+    font-size: 1.5em;
+    color: #033f0d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#txt2{
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+    line-height: 170%;
+    font-size: 1.5em;
+    color: #0f0e0e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#listaMQ{
+    color: #131312;
+    padding-left: 30%;
+    line-height: 170%;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#txt3{
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+    line-height: 170%;
+    font-size: 1.5em;
+    color: #001cb8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#txt4{
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+    line-height: 170%;
+    font-size: 1.5em;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 700px){
+    body{
+        font-size:12px;
+    }
+}
