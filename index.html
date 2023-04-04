@@ -4,143 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Queries</title>
-    <Link rel="stylesheet" type="text/css" href="estilo.css">
-    <meta:  name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Fase:3</title>
+    <link rel="stylesheet" href="estilo2.css">
 </head>
-<body>
-
-    <a name="inicio"></a>
+<body class="contenedor">
     <header>
-        <section id="menu">
+        <h1 style="text-align: center; color: white;">DISEÑO DE SITIOS WEB</h1>
+        <h1 style="text-align: center; color: white">FASE 3: DISEÑAR</h1>
+    </header>
+    <nav>            
+            <div id="header1">
+                <ul class="nav1">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Temas</a>
+                        <ul>
+                            <li><a href="">Media Queries</a></li>
+                            <li><a href="">Tema 2</a></li>
+                            <li><a href="">Tema 3</a></li>
+                            <li><a href="">Tema 4</a></li>
+                            <li><a href="">Tema 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </di>
+
+
+
+
+
+
+
+
+ 
+        
+
+
+
+
+
+
+
+
+
+
+    </nav>
+    <aside>
+        <h2 style="text-align: center;">Menú</h2>
+        <section id="aside">
             <ul>
-                <section style="text-align: center">
-                    <p5><u>MEDIA QUERIES</u></p5>
-                </section>
-                <br>
-                <br>
-                <a href="#inicio">Inicio</a>
-                <a href="#MQ">Media Queries</a>
-                <a href="#Mockup">Mockup</a>
-                <a href="#acercad">Acerca de</a>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#" style="color: #E21818;">Audios</a></li>
+                <li><a href="#">Nosotros</a></li>
             </ul>
         </section>
-    </header>
-    <nav>
+    </aside>
+
+    <main>
         <section>
-            <a name="MQ"></a>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-        
-            <p>
-                <br><br><br><br>
-                <section style="text-align: center">
-                    <h1>¿Que es Media Querie?</h1>
-                </section>
-                <br><br>
-
-                <p id="txt1">
-                    Una media querie es un conjunto de reglas de CSS usadas para hacer que el contenido de una pagina web se adapte a los diferentes tipos de pantalla, resoluciones, orientación y demás situaciones que se puedan presentar mientras se cumplan ciertas condiciones definidas en la programación, como puede ser al pasar de visualizar una pagina en un dispositivo con una pantalla grande a un dispositivo con pantalla pequeña y de menor resolución.
-                    <br><br>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, dolor sequi quas, libero debitis nam facilis recusandae pariatur voluptatem quasi soluta quis dolores amet illum similique ea consequuntur minima culpa?
                 </p>
-                <p id="txt2">
-                    Entre las cosas que se pueden modificar con una media querie están las siguientes: 
-                    <br><br>
-                </p>
-                <ul id="listaMQ">
-                    <li>Visibilidad de elementos.</li>
-                    <li>Modificar el tamaño de un texto.</li>
-                    <li>Modificar el tamaño de una imagen.</li>
-                    <li>Modificar el margen y el espacio de elementos.</li>
-                </ul>
-            </p>
+            </article>
 
-            <P id="txt3">
-                Cuando no existía el uso de las media queries, se tenía que optar por tener dos versiones de una pagina web, una destinada para dispositivos de escritorio y otra diferente para móviles, lo cual por obvias razones era costoso para mantener en funcionamiento estas dos versiones de una misma página. Así que cuando se empezó a usar las media queries este problema era parte del pasado ya que mediante una serie de líneas de código las cuales hicieran que una pagina web se pudiese adaptar sin problema al tamaño tan variado de los dispositivos tecnológicos, resoluciones y orientaciones de dichos dispositivos <b>(Diseño Responsive)</b> y ademas las media queries se comenzaron a implementar por los navegadores en 2012 cando llego el CSS3. <br>
-                <div style="text-align: center";border="10";>
-                    <img src="Imagenes/img5.png" style="border: 2px solid rgb(100, 255, 11);" width="60%;">
-                    <h6 style="text-align: center;">
-                        Imagen tomada de: <a href="https://hostingwebcloud.com/que-es-una-media-query/"> https://hostingwebcloud.com/que-es-una-media-query/</a>
-                    </h6>
-                </div>
-            </P>
-            <br><br>
-            <p id="txt4">
-                Una media quería siempre comienza con esta sintaxis: @media, agregando una Mediatype.
-                <br>
-                <div style="text-align: center";border="10";>
-                    <img src="Imagenes/img1.png" style="border: 2px solid rgb(0, 0, 0);" width="50%;">
-                </div>
-                <h6 style="text-align: center;">
-                    Imagen tomada de: <a href="https://www.silocreativo.com/media-queries-css/"> https://www.silocreativo.com/media-queries-css/</a>
-                </h6>
-                <p id="txt4">
-                    Se puede agrupar o excluir un mediatype específico haciendo uso de los operadores not y only.
-                    <br><br>
-                </p>
-                <h2 style="padding-left: 25%;";>Ejemplos:</h2>
-                <br>
-                <p style="text-align: center; color: rgb(221, 14, 14);" id="pie_imagen" >
-                    <b>Ejecuta el CSS en pantalla a partir de 768 px en adelante.</b>
-                </p>
-                <div style="text-align: center";border="10";>
-                    <img src="Imagenes/img2.png" style="border: 3px solid rgb(221, 14, 14);" width="50%;">
-                    <h6 style="text-align: center;">
-                        Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/"> hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
-                    </h6>
-                    <br>
 
-                    <br><br>
-                    <p style="text-align: center; color: rgb(143, 33, 245);" id="pie_imagen" >
-                        <b>Ejecuta el CSS en pantalla hasta resoluciones de 420px como máximo.</b> 
-                    </p>
-                    <img src="Imagenes/img3.png" style="border: 3px solid rgb(143, 33, 245);" width="50%;">
-                    <h6 style="text-align: center;">
-                        Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/"> hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
-                    </h6>
-                    <br>
-
-                    <br><br>
-                    <p style="text-align: center; color: #026637;" id="pie_imagen"><b>Ejecuta el CSS para resoluciones entre 1023px y 1280 px.</b> </p> 
-                    <img src="Imagenes/img4.png" style="border: 3px solid #026637;" width="50%;">
-                    <h6 style="text-align: center;">
-                        Imagen tomada de: <a href="https://javiervallejo.com/ejemplos-de-uso-media-query/"> hhttps://javiervallejo.com/ejemplos-de-uso-media-query/</a>
-                    </h6>
-                    <a name="Mockup"></a>
-                    <br><br><br><br><br>
-                </div>
-            </p>
         </section>
-        <section style="text-align: center">
-            
-            <br><br>
-            <p3>MOCKUP</p3>
-            <p></p>
-            <div style="text-align: center";>
-                <img src="Imagenes/Bosquejo.png" width="50%;">
-            </div>
-        </section>
-        <br><br><br>
-        <h2 style="padding-left: 25%;";>Referencias:</h2>
-        <br>
-        <p> Calvache, R. G. (2019, 12 agosto). ¿Qué es una Media Query? Hosting WebCloud. <a href="https://hostingwebcloud.com/que-es-una-media-query/">https://hostingwebcloud.com/que-es-una-media-query/</a></p>
-        <br>
-        <p>Prieto, R. (2021, 28 junio). Media Queries en CSS ¿Cómo funcionan? Silo Creativo. <a href= "https://www.silocreativo.com/media-queries-css/">https://www.silocreativo.com/media-queries-css/</a></p>
-        <br>
-        <p>CSS media queries - CSS | MDN. (2023, 14 febrero). <a href="https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries">https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries</a></p>
-        <br>
-        <p>Vallejo, J. (2022, 7 junio). Qué es una Media Query (con ejemplos). Javier Vallejo. <a href="https://javiervallejo.com/ejemplos-de-uso-media-query">https://javiervallejo.com/ejemplos-de-uso-media-query</a>/</p>
-        <br><br><br><br><br><br>
-        <a name="acercad"></a>
-        <div class="footer-wrapper">
-            <div style="padding-top: 15px; padding-bottom: 10px; ">
-                <p1>&copy; 2023 Alejandro Bacca / UNAD. Ultima modificacion: 07/Marzo/2023</p1>      
-            </div>
+    </main>
+    <footer style="text-align: center;">
+        <div style="padding-top: 15px; padding-bottom: 10px; ">
+            <p1>&copy; 2023 Alejandro Bacca / UNAD. Ultima modificacion: 03/Abril/2023</p1>      
         </div>
-    </nav>
-
+    </footer>
+    
 </body>
 </html>
