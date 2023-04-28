@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <h1 id="resultado"> Responda las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+
+            <div class="container">
+                <h3>1. ¿Cuál de las siguientes opciones define correctamente una media query en CSS? </h3>
+                <input type="radio" name="r1" value="a"> a) @media-query  <br>
+                <input type="radio" name="r1" value="b"> b) @media  <br>
+                <input type="radio" name="r1" value="c"> c) @query-media <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>2. ¿Cuál es la sintaxis correcta para aplicar una media query que tenga un ancho de pantalla mínimo de 768 píxeles? </h3>
+                <input type="radio" name="r2" value="a"> a) @media (min-width: 768px)  <br>
+                <input type="radio" name="r2" value="b"> b) @media (min-width: 768)  <br>
+                <input type="radio" name="r2" value="c"> c) @media (width: 768px) <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>3. ¿Qué propiedad se utiliza para aplicar reglas de estilo solo en pantallas con una resolución de pantalla mayor a 2dppx? </h3>
+                <input type="radio" name="r3" value="a"> a) resolution  <br>
+                <input type="radio" name="r3" value="b"> b) min-resolution  <br>
+                <input type="radio" name="r3" value="c"> c) max-resolution <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>4. ¿Cuál de las siguientes opciones es una forma válida de encadenar múltiples media queries?  </h3>
+                <input type="radio" name="r4" value="a"> a) @media (min-width: 768px) or (min-width: 1024px)   <br>
+                <input type="radio" name="r4" value="b"> b) @media (min-width: 768px), (min-width: 1024px)   <br>
+                <input type="radio" name="r4" value="c"> c) @media (min-width: 768px) && (min-width: 1024px) <br>
+            </div>
+            <br>
+            <div class="container">
+                <h3>5. ¿Cuál de las siguientes opciones define correctamente una media query que se aplique solo a dispositivos con pantalla retina (alta resolución)?  </h3>
+                <input type="radio" name="r5" value="a"> a) @media (min-device-pixel-ratio: 2)   <br>
+                <input type="radio" name="r5" value="b"> b) @media (device-pixel-ratio: 2)   <br>
+                <input type="radio" name="r5" value="c"> c) @media (resolution: 2dppx) <br>
+            </div>
+
+
+            <input type="button" value ="Enviar" onclick="procesarRespuestas()"><br>
+            <div style="text-align: center;">
+                <button onclick="repetirCuestionario()">Repetir cuestionario</button>
+            </div>
+            
+        </form>
+    </div>
+    <h1 id="resultados"></h1>
+<script src="js/script.js"></script>
+</body>
+</html>
